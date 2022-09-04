@@ -10,4 +10,8 @@ class TestLeapYear(unittest.TestCase):
         stri="Year cannot be negative"
         self.assertEqual(result,stri) 
 
+    def test_divisblebyfour(self): ## checking the year is divisible by 4
+        result=LeapYear.LeapYear(2000)
+        self.assertEqual(result,True)
+
 
