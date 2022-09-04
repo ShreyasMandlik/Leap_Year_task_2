@@ -18,12 +18,14 @@ class TestLeapYear(unittest.TestCase):
         result=LeapYear.LeapYear(2018)
         self.assertEqual(result,False)
 
-        result1=LeapYear.LeapYear(2019)
+        result1=LeapYear.LeapYear(2019) 
         self.assertEqual(result1,False)
 
-    def test_Divisible_by_4_not_by_100(self):
+    def test_Divisible_by_4_not_by_100(self):## checking the year is divisible by 4 but not by 100
         result=LeapYear.LeapYear(2016)
         self.assertEqual(result,True)
+
+    
 
 
 
