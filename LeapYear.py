@@ -1,4 +1,6 @@
 
 
 def LeapYear(Year):
-    pass
+   if Year<0 :
+        str="Year cannot be negative"
+        return str
